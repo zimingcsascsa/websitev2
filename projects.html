@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Home | Ziming's Coding Class</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -14,18 +16,52 @@
     <a href="curiculum.html">Full Course Curriculum</a>
     <a href="rates.html">Pricing</a>
   </nav>
-<section class="hero">
-  <h1>Welcome to Ziming's Coding Class</h1>
-  <p>Below are some of my previous projects, Hopefully this shows some of my experience in programming. <p> 
-    </section>
-  <figure><img src="gmone.png" alt = "here it"width = "300">
-    <img src="gmtwo.png" width = "300">
+
+  <section class="hero">
+    <h1>Welcome to Ziming's Coding Class</h1>
+    <p>Below are some of my previous projects. Hopefully this shows some of my experience in programming.</p>
+  </section>
+<h1>Python Platformer Project</h1>
+  <figure style="text-align: center;">
+    <img src="gmone.png" alt="Screenshot 1" width="300">
+    <img src="gmtwo.png" alt="Screenshot 2" width="300">
+    <figcaption><strong>Project Code:</strong></figcaption>
+    <img src="gm3.png" alt="Project Code" width="500">
+    <figcaption>Python Platformer Game built with Pygame — features include challenging spike obstacles, precise collision mechanics, and a dash ability for fast movement and creative level navigation.  Includes 8 levels each increasing in difficulty.</figcaption>
+  </figure>
+
+  <div style="text-align: center;">
+    <h2>Scratch Tower Defence Project</h2>
+    <figcaption>The video might be a bit laggy because of my recording software. also I also have a case of the skill issue</figcaption>
     
-  <figcaption> Platformer Made entirely with python with over 7 differnt challenging levels, Includes a powerup system allowing the player to dash around the level. 
+    <video id="myVideo" width="640" height="360" controls>
+      <source src="DEMO1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <figcaption>
+      Tower Defence Game fully built with 6 different towers, an infinite amount of waves, and 4 different difficulty levels. Game is currently on version 4.2.
+    </figcaption>
+  </div>
+
+  <div style="text-align: center;">
+    <h2>Fully Custom Scratch Platformer</h2>
+    <figcaption>The video might be a bit laggy because of my recording software. also I also have a case of the skill issue</figcaption>
     
-  </figure> 
-  <b>Project code:<b>
-  <img src="gm3.png"  width = "500">
+    <video id="myVideo" width="640" height="360" controls>
+      <source src="DEMO2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <figcaption>
+      A platformer game where the goal of the game is to make it to the end without dying, there are a infinite amount of posibilitys in this game, anyone can make levels(in the editor) and there are mutiple branching paths that all lead to the finish line, All consisting of differnt levels of difficulty.
+    </figcaption>
+  </div>
   
+  <script>
+    const video = document.getElementById("myVideo");
+    video.playbackRate = 2.0;
+  </script>
+
 </body>
 </html>
